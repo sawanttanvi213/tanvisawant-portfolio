@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Tanvi Sawant</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark site-nav">
+  <div class="container">
+    <a class="navbar-brand brand-serif" href="index.html">Tanvi Sawant</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link active" href="contact.html">Contact</a></li>
+        <li class="nav-item ms-lg-2"><a class="btn btn-pink rounded-pill px-4" href="#message">Let's Connect</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<header class="contact-hero">
+  <div class="container py-5">
+    <div class="row align-items-center g-5 py-4">
+      <div class="col-lg-6">
+        <p class="eyebrow light">GET IN TOUCH</p>
+        <h1 class="display-hero">Let’s<br>Connect</h1>
+        <p class="hero-copy">"I’m always open to new opportunities, thoughtful conversations, and meaningful collaborations. If you’d like to work together or simply connect, I’d love to hear from you!"</p>
+      </div>
+      <div class="col-lg-6">
+        <div class="contact-hero-image-wrap">
+          <img src="assets/contact-graduation.jpg" alt="Tanvi Sawant at graduation">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="section-light">
+  <section class="py-5">
+    <div class="container py-4">
+      <div class="row g-5">
+        <div class="col-lg-5">
+          <div class="contact-list">
+            <div class="contact-item">
+              <span class="contact-icon"><i class="bi bi-envelope-fill"></i></span>
+              <div><strong>Email</strong><p><a href="mailto:tanvisawantwork@gmail.com">tanvisawantwork@gmail.com</a></p></div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"><i class="bi bi-linkedin"></i></span>
+              <div><strong>LinkedIn</strong><p><a href="https://www.linkedin.com/in/tanvi-sawant21/" target="_blank" rel="noopener">linkedin.com/in/tanvi-sawant21</a></p></div>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon"><i class="bi bi-geo-alt-fill"></i></span>
+              <div><strong>Location</strong><p>College Park, Maryland</p></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-7" id="message">
+          <div class="contact-form-card">
+            <h2 class="section-title mb-4">Send Me a Message</h2>
+            <form id="contactForm">
+              <div class="mb-3">
+                <label class="form-label" for="name">Your Name</label>
+                <input class="form-control" id="name" name="name" type="text" placeholder="Enter your name" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="email">Your Email</label>
+                <input class="form-control" id="email" name="email" type="email" placeholder="Enter your email" required>
+              </div>
+              <div class="mb-3">
+                <label class="form-label" for="messageText">Message</label>
+                <textarea class="form-control" id="messageText" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+              </div>
+              <button class="btn btn-dark w-100 py-2" type="submit">Send Message</button>
+              <p id="formStatus" class="form-status mt-3 mb-0" role="status" aria-live="polite"></p>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-brand-banner mt-5">
+        <img src="assets/brand-banner.jpg" alt="Turning data into opportunity — Tanvi Sawant personal brand banner">
+      </div>
+
+      <div class="quote-panel text-center mt-5">
+        <p>“Let’s connect, collaborate, and create something meaningful!”</p>
+        <span></span>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+    <div>
+      <div class="brand-serif">Tanvi Sawant</div>
+      <small>Data · Product · Technology</small>
+    </div>
+    <div class="socials">
+      <a href="https://www.linkedin.com/in/tanvi-sawant21/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+      <a href="mailto:tanvisawantwork@gmail.com" aria-label="Email"><i class="bi bi-envelope-fill"></i></a>
+    </div>
+    <small>Let's build something meaningful together.</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
